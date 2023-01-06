@@ -1,2 +1,0 @@
-# WebApplicationSupportingAnOnlineStore
-Praca Inżynierska

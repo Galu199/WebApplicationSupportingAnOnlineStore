@@ -1,0 +1,80 @@
+/*
+    MAIN elements
+*/
+
+/*HTML*/
+html {
+    position: relative;
+    font-size: 14px;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*BODY*/
+body{
+    position: relative;
+    min-height: 100vh;
+    max-width: 100vw !important;
+}
+
+/*HEADER*/
+header {
+    position: relative;
+}
+
+/*MAIN*/
+main {
+    position: relative;
+}
+
+/*FOOTER*/
+footer {
+    position: relative;
+}
+
+footer ul{
+    list-style:none;
+    padding:0;
+}
+
+footer a {
+    position: relative;
+    transition: 1s;
+    left: 0px;
+    color: var(--bs-secondary);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--bs-primary) !important;
+}
+
+footer ul a:hover {
+    left: 10px;
+    color: var(--bs-primary) !important;
+}
+
+/*OTHER*/
+h1,p{
+    margin:0;
+}
+
+/*
+    New classes
+*/
+.section {
+    position: relative;
+    min-height: 77.5vh;
+}
+
+/*
+    Cosmetics
+*/
+form > div > label{
+    color: var(--bs-dark);
+}
